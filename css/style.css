@@ -1,0 +1,77 @@
+body{
+    background-image: linear-gradient(rgb(221, 212, 240), rgb(202, 111, 202));
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+.container{
+    max-width: 50%;
+    background: url('../messageImage.jpg');
+    background-position: center center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-size: cover; 
+    margin: auto;
+    height: 60vh;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    border: 3px solid blueviolet;
+    border-radius: 5px;
+    filter: invert(5);
+}
+
+.message{
+    background: plum;
+    border-radius: 5px;
+    margin: 5px 2px;
+    padding: 5px 5px;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#send-container {
+    text-align: center;
+    width: 50%;
+    max-width: 985px;
+    margin: auto;
+    display: flex;
+    /* flex-direction: column; Ensure the textarea and button stack vertically */
+    gap: 10px; /* Space between textarea and button */
+}
+
+#messageInp {
+    width: 100%; 
+    /* max-width: 100%;  */
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    resize: vertical; 
+    overflow-y: auto; /* Scroll if the content exceeds the textarea height */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.btn {
+    border: 2px solid black;
+    height: auto; /* Adjust height to fit content */
+    padding: 5px 10px; /* Add padding inside the button */
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: grey;
+    color: aliceblue;
+}
