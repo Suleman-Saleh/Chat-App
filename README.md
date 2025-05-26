@@ -115,7 +115,7 @@ You can make your app publicly accessible using **Ngrok**.
 
 ## 👤 Author
 
-Created by **[Your Name]**
+Created by **Muhammad Suleman**
 
 ---
 
